@@ -3,7 +3,7 @@
  * Plugin Name:   Access By Category
  * Version:       1.0
  * Plugin URI:    http://wordpress.org/extend/plugins/access-by-category/
- * Description:   Allows wordpress administrator to control access to blog categories according to user roles
+ * Description:   Allows wordpress administrator to control access to blog categories according to user roles. Adjust your settings <a href="users.php?page=access-by-category/access-by-category.php">here</a>.
  * Author:        MaxBlogPress Revived
  * Author URI:    http://www.maxblogpress.com
  *
@@ -23,10 +23,10 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  * 
- * Copyright (C) 2007 www.maxblogpress.com
+ * Copyright (C) 2009 www.maxblogpress.com
  *
- * The plugin was previously developed by Joel Rothschild
- *
+ * This is the improved version of "Access by Category" plugin by Joel Rothschild
+ * 
  */
 
 define('ABC_NAME', 'Access By Category');
