@@ -59,7 +59,7 @@ The four types of view access are:
 
 == Change Log ==
 
-= Version 1.0 (07-01-2009) =
+= Version 1.0 (07-09-2009) =
 * New: First Release
 
 == Screenshots ==
