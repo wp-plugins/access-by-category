@@ -1,6 +1,6 @@
 === Access By Category ===
 Contributors: MaxBlogPress Revived
-Tags: category, category access, block category, hide category, user role
+Tags: category, category access, access, block category, hide category, user role
 Requires at least: 2.0
 Tested up to: 2.8
 Stable tag: trunk
