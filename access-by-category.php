@@ -2,7 +2,7 @@
 /* 
  * Plugin Name:   Access By Category
  * Version:       1.0
- * Plugin URI:    http:///
+ * Plugin URI:    http://wordpress.org/extend/plugins/access-by-category/
  * Description:   Allows wordpress administrator to control access to blog categories according to user roles
  * Author:        MaxBlogPress Revived
  * Author URI:    http://www.maxblogpress.com
