@@ -41,6 +41,7 @@ class accessbycategory {
 		$this->abc_path = str_replace('\\','/',$this->abc_path);
 		$this->abc_siteurl = get_bloginfo('wpurl');
 		$this->abc_siteurl = (strpos($this->abc_siteurl,'http://') === false) ? get_bloginfo('siteurl') : $this->abc_siteurl;
+		$this->abc_fullpath = $this->abc_siteurl.'/wp-content/plugins/'.substr($this->abc_path,0,strrpos($this->abc_path,'/')).'/';
 		$this->categories_access_table = $wpdb->prefix . 'categories_access';
 		$this->posts_access_table = $wpdb->prefix . 'posts_access';
 		$this->links_access_table = $wpdb->prefix . 'links_access';
@@ -960,6 +961,8 @@ class accessbycategory {
 			?>
 			<div class="wrap">
 				<h2><?php echo ABC_NAME.' '.ABC_VERSION; ?></h2>
+		        <br /><strong><img src="<?php echo $this->abc_fullpath;?>images/how.gif" border="0" align="absmiddle" /> <a href="http://wordpress.org/extend/plugins/access-by-category/other_notes/" target="_blank">How to use it</a>&nbsp;&nbsp;&nbsp;
+                <img src="<?php echo $this->abc_fullpath;?>images/comment.gif" border="0" align="absmiddle" /> <a href="http://www.maxblogpress.com/forum/forumdisplay.php?f=20" target="_blank">Community</a></strong><br /><br />
 				<form id="abc_config" method="post">
 					<?php if ( function_exists('wp_nonce_field') )		// nonce security (see http://markjaquith.wordpress.com/2006/06/02/wordpress-203-nonces/)
 						wp_nonce_field('accessbycategory-update-options');
@@ -1086,6 +1089,7 @@ class accessbycategory {
 					<input type="hidden" name="config" value="2" />
 				</form>
 				<p style="text-align:center;margin-top:3em;"><strong><?php echo ABC_NAME.' '.ABC_VERSION; ?> by <a href="http://www.maxblogpress.com/" target="_blank" >MaxBlogPress</a></strong></p>
+			    <p align="center">This plugin is the result of <a href="http://www.maxblogpress.com/blog/219/maxblogpress-revived/" target="_blank">MaxBlogPress Revived</a> project.</p>
 			</div>
 			<?php
 		}
