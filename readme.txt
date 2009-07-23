@@ -2,7 +2,7 @@
 Contributors: MaxBlogPress Revived
 Tags: category, category access, access, block category, hide category, user role
 Requires at least: 2.0
-Tested up to: 2.8
+Tested up to: 2.8.2
 Stable tag: trunk
 
 Allows wordpress administrator to control access to blog categories according to user roles.
